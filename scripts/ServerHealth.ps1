@@ -6,7 +6,7 @@
 
 
 #$cred = Get-Credential
-$pwd = "Voidmain@7907"
+$pwd = "*************"
     $Password = convertto-securestring $pwd -asplaintext -force
     $Username = "lpu\amanasr"
     
