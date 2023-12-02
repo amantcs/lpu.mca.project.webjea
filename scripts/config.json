@@ -25,6 +25,24 @@
                          "PermittedGroups":  [
                                                  "*"
                                              ]
+                     },
+                     {
+                         "Script":  "restartnode.ps1",
+                         "OnloadScript":  null,
+                         "DisplayName":  "Reboot",
+                         "Id":  "reboot",
+                         "PermittedGroups":  [
+                                                 "*"
+                                             ]
+                     },
+                     {
+                         "Script":  "get-update.ps1",
+                         "OnloadScript":  null,
+                         "DisplayName":  "Update History",
+                         "Id":  "getupdate",
+                         "PermittedGroups":  [
+                                                 "*"
+                                             ]
                      }
                  ],
     "SendTelemetry":  true

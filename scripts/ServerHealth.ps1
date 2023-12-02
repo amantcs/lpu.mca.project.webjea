@@ -185,8 +185,12 @@ TH {border-width: 1px; padding: 3px; border-style: solid; border-color: black; b
 TD {border-width: 1px; padding: 3px; border-style: solid; border-color: black;}
 </style>
 "@
+
+$body = @"
+<a href="https://lpuwebjea.lpu.com/WebJEA/?cmdid=serverhealth"> Back</a>
+"@
 $htmlData
-$htmlData = $report | ConvertTo-Html -PreContent "<h1>Server Report</h1>" -Head $Header
+$htmlData = $report | ConvertTo-Html -PreContent "<h1>Server Report</h1>" -Head $Header -Body $body
 
 $FormattedHTML =  $htmlData | ForEach {
 
