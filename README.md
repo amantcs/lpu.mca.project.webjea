@@ -15,4 +15,3 @@ To run the project:
 	Check the Require Server Name Indication
 	Select SSL Certificate
 	Add App Pool
-5. Or Optionally Install the WebJea from official documentation to fast track the IIS part. https://github.com/markdomansky/WebJEA
